@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="281.0" prefWidth="263.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tareaad.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label fx:id="logInError" />
+
+    <Label text="Usuario: " />
+   <TextField fx:id="userName" />
+    <Label text="Contraseña: " />
+   <PasswordField fx:id="password" prefHeight="25.0" prefWidth="56.0" />
+   <Pane prefHeight="73.0" prefWidth="198.0">
+      <children>
+          <Button fx:id="logIn" layoutX="69.0" layoutY="1.0" onAction="#onLogInClick" prefWidth="86.0" text="Iniciar Sesión" />
+      </children>
+   </Pane>
+</VBox>

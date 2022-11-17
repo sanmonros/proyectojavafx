@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="386.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tareaad.Controller">
+    <padding>
+        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+    </padding>
+        <Label fx:id="errorTable" />
+        <Label layoutX="208.0" layoutY="169.0" text="Introduzca el nombre de una tabla" />
+        <TextField fx:id="fieldTable" layoutX="226.0" layoutY="187.0" />
+        <Button fx:id="next" layoutX="267.0" layoutY="223.0" onAction="#onNextClick" text="Siguiente" />
+</AnchorPane>
